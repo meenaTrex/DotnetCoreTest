@@ -1,0 +1,36 @@
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\appsettings.json
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\obj\Debug\netcoreapp2.2\dotnet.AssemblyInfoInputs.cache
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\obj\Debug\netcoreapp2.2\dotnet.AssemblyInfo.cs
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\dotnet.deps.json
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\dotnet.runtimeconfig.json
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\dotnet.runtimeconfig.dev.json
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\dotnet.dll
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\dotnet.pdb
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\dotnet.Views.dll
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\obj\Debug\netcoreapp2.2\dotnet.csprojAssemblyReference.cache
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\obj\Debug\netcoreapp2.2\dotnet.RazorAssemblyInfo.cache
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\obj\Debug\netcoreapp2.2\dotnet.RazorAssemblyInfo.cs
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\obj\Debug\netcoreapp2.2\dotnet.RazorTargetAssemblyInfo.cache
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\obj\Debug\netcoreapp2.2\dotnet.dll
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\obj\Debug\netcoreapp2.2\dotnet.pdb
+D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\obj\Debug\netcoreapp2.2\dotnet.csproj.CopyComplete
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\bin\Debug\netcoreapp2.2\appsettings.Development.json
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\bin\Debug\netcoreapp2.2\appsettings.json
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\bin\Debug\netcoreapp2.2\dotnet.deps.json
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\bin\Debug\netcoreapp2.2\dotnet.runtimeconfig.json
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\bin\Debug\netcoreapp2.2\dotnet.runtimeconfig.dev.json
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\bin\Debug\netcoreapp2.2\dotnet.dll
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\bin\Debug\netcoreapp2.2\dotnet.pdb
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\bin\Debug\netcoreapp2.2\dotnet.Views.dll
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\obj\Debug\netcoreapp2.2\dotnet.csprojAssemblyReference.cache
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\obj\Debug\netcoreapp2.2\dotnet.RazorAssemblyInfo.cache
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\obj\Debug\netcoreapp2.2\dotnet.RazorAssemblyInfo.cs
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\obj\Debug\netcoreapp2.2\dotnet.AssemblyInfoInputs.cache
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\obj\Debug\netcoreapp2.2\dotnet.AssemblyInfo.cs
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\obj\Debug\netcoreapp2.2\dotnet.RazorTargetAssemblyInfo.cache
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\obj\Debug\netcoreapp2.2\dotnet.dll
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\obj\Debug\netcoreapp2.2\dotnet.pdb
+d:\home\NAGP\Devops\dotnetCoreTest\dotnet\obj\Debug\netcoreapp2.2\dotnet.csproj.CopyComplete

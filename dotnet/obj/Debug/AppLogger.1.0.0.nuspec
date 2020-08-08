@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AppLogger</id>
+    <version>1.0.0</version>
+    <authors>vandna</authors>
+    <owners>vandna</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.2">
+        <dependency id="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" version="1.9.10" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp2.2/wwwroot/css/site.css" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/favicon.ico" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/js/site.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap.css" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/js/bootstrap.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/bootstrap/LICENSE" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery-validation/dist/additional-methods.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery-validation/dist/jquery.validate.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery-validation/LICENSE.md" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery/dist/jquery.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery/dist/jquery.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery/dist/jquery.min.map" buildAction="Content" />
+      <files include="any/netcoreapp2.2/wwwroot/lib/jquery/LICENSE.txt" buildAction="Content" />
+      <files include="any/netcoreapp2.2/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netcoreapp2.2/appsettings.json" buildAction="Content" />
+      <files include="any/netcoreapp2.2/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\dotnet.Views.dll" target="lib\netcoreapp2.2\dotnet.Views.dll" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\dotnet.runtimeconfig.json" target="lib\netcoreapp2.2\dotnet.runtimeconfig.json" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\bin\Debug\netcoreapp2.2\dotnet.dll" target="lib\netcoreapp2.2\dotnet.dll" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\css\site.css" target="content\wwwroot\css\site.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\css\site.css" target="contentFiles\any\netcoreapp2.2\wwwroot\css\site.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\favicon.ico" target="content\wwwroot\favicon.ico" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\favicon.ico" target="contentFiles\any\netcoreapp2.2\wwwroot\favicon.ico" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\js\site.js" target="content\wwwroot\js\site.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\js\site.js" target="contentFiles\any\netcoreapp2.2\wwwroot\js\site.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\LICENSE" target="content\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\bootstrap\LICENSE" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" target="content\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\LICENSE.md" target="content\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery-validation\LICENSE.md" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery\dist\jquery.js" target="content\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery\dist\jquery.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery\dist\jquery.min.js" target="content\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery\dist\jquery.min.js" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery\dist\jquery.min.map" target="content\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery\dist\jquery.min.map" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery\LICENSE.txt" target="content\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\wwwroot\lib\jquery\LICENSE.txt" target="contentFiles\any\netcoreapp2.2\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\appsettings.Development.json" target="contentFiles\any\netcoreapp2.2\appsettings.Development.json" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\appsettings.json" target="content\appsettings.json" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\appsettings.json" target="contentFiles\any\netcoreapp2.2\appsettings.json" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="D:\nagp\5 devops\prac\dotnettest\dotnet\dotnet\Properties\launchSettings.json" target="contentFiles\any\netcoreapp2.2\Properties\launchSettings.json" />
+  </files>
+</package>
