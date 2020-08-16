@@ -20,9 +20,12 @@ pipeline
 		
 		stage('build')
 		{
-			echo "build in master branch"
-			//bat "dotnet restore"
-			bat "dotnet build"
+			steps
+			{
+				echo "build in master branch"
+				//bat "dotnet restore"
+				bat "dotnet build"
+			}
 		}
 		
 	}
