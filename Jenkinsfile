@@ -71,7 +71,7 @@ pipeline
 		{
 			steps
 			{
-				bat "dockar tag dotnetcoretest:${BUILD_NUMBER} meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				bat "docker tag dotnetcoretest:${BUILD_NUMBER} meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 				bat "docker push meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 				
 			}
