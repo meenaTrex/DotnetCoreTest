@@ -63,7 +63,7 @@ pipeline
 		{
 			steps
 			{
-				bat "docker build -t dotnetcoretest:${BUILD_NUMBER} --no-cache -f ./dotnet/Dockerfile ./dotnet"
+				bat "docker build -t meenakshi23/dotnetcoretest:${BUILD_NUMBER} --no-cache -f ./dotnet/Dockerfile ./dotnet"
 				
 			}
 		}
@@ -71,7 +71,7 @@ pipeline
 		{
 			steps
 			{
-				bat "docker tag dotnetcoretest:${BUILD_NUMBER} meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				//bat "docker tag dotnetcoretest:${BUILD_NUMBER} meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 				bat "docker push docker.io/meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 				
 			}
