@@ -61,12 +61,12 @@ pipeline
 		}
 		stage('docker build'){
             steps{
-                bat script: 'docker build -t meenakshi23/dotnetcoretest:${BUILD_NUMBER} ./dotnet'
+                bat script: "docker build -t meenakshi23/dotnetcoretest:${BUILD_NUMBER} ./dotnet"
             }
         }
         stage('docker push'){
             steps{
-                bat script:'docker push docker.io/meenakshi23/dotnetcoretest:${BUILD_NUMBER}'
+                bat script: "docker push docker.io/meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
                
             }
         }
