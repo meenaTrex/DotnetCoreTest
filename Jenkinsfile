@@ -59,5 +59,22 @@ pipeline
 				}
 			}
 		}
+		stage('Docker Image')
+		{
+			steps
+			{
+				bat "docker build -t dotnetcoretest:${BUILD_NUMBER} --no-cache -f ./dotnet/Dockerfile ./dotnet"
+				
+			}
+		}
+		stage('Push Docker Image')
+		{
+			steps
+			{
+				bat "dockar tag dotnetcoretest:${BUILD_NUMBER} meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				bat "docker push meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				
+			}
+		}
 	}
 }
