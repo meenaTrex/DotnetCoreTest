@@ -59,16 +59,25 @@ pipeline
 				}
 			}
 		}
-		stage('docker build'){
-            steps{
-                bat script: "docker build -t meenakshi23/dotnetcoretest:${BUILD_NUMBER} ./dotnet"
-            }
-        }
-        stage('docker push'){
-            steps{
-                bat script: "docker push docker.io/meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
-               
-            }
-        }
+		stage('Docker Image')
+		{
+			steps
+			{
+				bat "docker build -t meenakshi23/dotnetcoretest:${BUILD_NUMBER} --no-cache -f ./dotnet/Dockerfile ./dotnet"
+				
+			}
+		}
+		stage('Push Docker Image')
+		{
+			steps
+			{
+				//bat "docker tag dotnetcoretest:${BUILD_NUMBER} meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				//bat "docker push docker.io/meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				withDockerRegistry([ credentialsId: "49cb0b01-e5b6-4d94-9fb1-987521ee9465", url: "" ]) {
+					bat "docker push docker.io/meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				}
+				
+			}
+		}
 	}
 }
