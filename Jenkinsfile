@@ -4,6 +4,7 @@ pipeline
 	environment
 	{
 		scannerHome = tool name: 'sonar_scanner', type: 'hudson.plugins.sonar.MsBuildSQRunnerInstallation'
+		dockerUsername 
 	}
 	options
 	{
@@ -17,6 +18,7 @@ pipeline
 		{
 			steps
 			{
+				echo ${env.docker_username}
 				echo "checkout in master branch"
 				checkout scm
 			}
@@ -85,7 +87,7 @@ pipeline
 			{
 				//bat "powershell.exe $containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}; docker stop $ContainerId ;docker rm $ContainerId"
 				//bat "FOR /F %a IN ('docker ps -a^| findstr 2341') DO docker rm -f  %a"
-				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=gifted_lichterman
+				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}
 				docker stop $ContainerId
 				docker rm $ContainerId'''
 			}
@@ -94,8 +96,9 @@ pipeline
 		{
 			steps
 			{
-				bat "docker run --name gifted_lichterman -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				bat "docker run --name test${BUILD_NUMBER} -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 			}
 		}
+		
 	}
 }
