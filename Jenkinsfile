@@ -79,5 +79,19 @@ pipeline
 				
 			}
 		}
+		stage('Run container')
+		{
+			steps
+			{
+				bat "docker run --name testdockerimage -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+			}
+		}
+		stage('Remove container')
+		{
+			steps
+			{
+				bat "FOR /F %a IN ('docker ps -a^| findstr 2341') DO docker rm -f  %a"
+			}
+		}
 	}
 }
