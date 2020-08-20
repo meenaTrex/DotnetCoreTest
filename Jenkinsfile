@@ -79,22 +79,22 @@ pipeline
 				
 			}
 		}
-		stage('Docker deployment')
-		{
-			steps
-			{
-				bat "docker run --name test23 -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
-			}
-		}
 		stage('Remove container')
 		{
 			steps
 			{
 				//bat "powershell.exe $containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}; docker stop $ContainerId ;docker rm $ContainerId"
 				//bat "FOR /F %a IN ('docker ps -a^| findstr 2341') DO docker rm -f  %a"
-				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=test23
+				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=test19
 				docker stop $ContainerId
 				docker rm $ContainerId'''
+			}
+		}
+		stage('Docker deployment')
+		{
+			steps
+			{
+				bat "docker run --name test19 -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 			}
 		}
 	}
