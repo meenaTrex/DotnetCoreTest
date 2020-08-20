@@ -83,7 +83,7 @@ pipeline
 		{
 			steps
 			{
-				bat "docker run --name test${BUILD_NUMBER} -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				bat "docker run --name test${BUILD_NUMBER} -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 			}
 		}
 		stage('Remove container')
