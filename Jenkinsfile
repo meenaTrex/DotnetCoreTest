@@ -85,7 +85,7 @@ pipeline
 			{
 				//bat "powershell.exe $containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}; docker stop $ContainerId ;docker rm $ContainerId"
 				//bat "FOR /F %a IN ('docker ps -a^| findstr 2341') DO docker rm -f  %a"
-				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=test19
+				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=gifted_lichterman
 				docker stop $ContainerId
 				docker rm $ContainerId'''
 			}
@@ -94,7 +94,7 @@ pipeline
 		{
 			steps
 			{
-				bat "docker run --name test19 -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				bat "docker run --name gifted_lichterman -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 			}
 		}
 	}
