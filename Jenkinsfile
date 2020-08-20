@@ -79,7 +79,7 @@ pipeline
 				
 			}
 		}
-		stage('Run container')
+		stage('Docker deployment')
 		{
 			steps
 			{
@@ -90,8 +90,11 @@ pipeline
 		{
 			steps
 			{
-				bat "powershell.exe $containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}; docker stop $ContainerId ;docker rm $ContainerId"
+				//bat "powershell.exe $containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}; docker stop $ContainerId ;docker rm $ContainerId"
 				//bat "FOR /F %a IN ('docker ps -a^| findstr 2341') DO docker rm -f  %a"
+				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}
+				docker stop $ContainerId
+				docker rm $ContainerId'''
 			}
 		}
 	}
