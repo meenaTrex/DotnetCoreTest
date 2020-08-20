@@ -83,7 +83,7 @@ pipeline
 		{
 			steps
 			{
-				bat "docker run --name test${BUILD_NUMBER} -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				bat "docker run --name test23 -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 			}
 		}
 		stage('Remove container')
@@ -92,7 +92,7 @@ pipeline
 			{
 				//bat "powershell.exe $containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}; docker stop $ContainerId ;docker rm $ContainerId"
 				//bat "FOR /F %a IN ('docker ps -a^| findstr 2341') DO docker rm -f  %a"
-				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}
+				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=test23
 				docker stop $ContainerId
 				docker rm $ContainerId'''
 			}
