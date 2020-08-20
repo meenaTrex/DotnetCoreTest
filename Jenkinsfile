@@ -9,7 +9,7 @@ pipeline
 	{
 		//skipDefaultCheckout()
 		buildDiscarder(logRotator(daysToKeepStr: '10',numToKeepStr : '5'))
-		disableConcurrentBuilds()
+		disableConcurrentBuilds()a
 	}
 	stages
 	{
@@ -83,14 +83,15 @@ pipeline
 		{
 			steps
 			{
-				bat "docker run -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				bat "docker run --name test${BUILD_NUMBER} -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 			}
 		}
 		stage('Remove container')
 		{
 			steps
 			{
-				bat "FOR /F %a IN ('docker ps -a^| findstr 2341') DO docker rm -f  %a"
+				bat "powershell.exe $containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}; docker stop $ContainerId ;docker rm $ContainerId"
+				//bat "FOR /F %a IN ('docker ps -a^| findstr 2341') DO docker rm -f  %a"
 			}
 		}
 	}
