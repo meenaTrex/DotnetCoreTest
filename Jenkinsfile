@@ -18,7 +18,7 @@ pipeline
 		{
 			steps
 			{
-				echo ${env.docker_username}
+				echo env.docker_username
 				echo "checkout in master branch"
 				checkout scm
 			}
