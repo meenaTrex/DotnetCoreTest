@@ -3,7 +3,7 @@ pipeline
 	agent any
 	environment
 	{
-		scannerHome = tool name: 'sonar_scanner', type: 'hudson.plugins.sonar.MsBuildSQRunnerInstallation'
+		scannerHome = tool name: 'sonar_scanner_dotnet', type: 'hudson.plugins.sonar.MsBuildSQRunnerInstallation'
 		dockerUsername 
 	}
 	options
@@ -36,7 +36,7 @@ pipeline
 		{
 			steps
 			{
-				withSonarQubeEnv('test-sonar')
+				withSonarQubeEnv('Test_Sonar')
 				{
 					bat 'dotnet "C:/Program Files (x86)/Jenkins/tools/hudson.plugins.sonar.MsBuildSQRunnerInstallation/sonar_scanner/SonarScanner.MSBuild.dll" begin /k:pipeline-dotnet-test /n:pipeline-dotnet-test /v:1.0'
 					//bat "dotnet ${scannerHome}/SonarScanner"
