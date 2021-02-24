@@ -84,11 +84,11 @@ pipeline
 		{
 			steps
 			{
-				//bat "powershell.exe $containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}; docker stop $ContainerId ;docker rm $ContainerId"
-				//bat "FOR /F %a IN ('docker ps -a^| findstr 2341') DO docker rm -f  %a"
-				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=test${BUILD_NUMBER}
+				powershell label: '', script: '''$containerId = docker container ls -aq --filter=name=c_meenakshithukral_master
+				if($containerId){
 				docker stop $ContainerId
-				docker rm $ContainerId'''
+				docker rm $ContainerId
+				}'''
 			}
 		}
 		stage('Docker deployment')
