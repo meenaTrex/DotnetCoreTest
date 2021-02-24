@@ -74,7 +74,7 @@ pipeline
 			{
 				//bat "docker tag dotnetcoretest:${BUILD_NUMBER} meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 				//bat "docker push docker.io/meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
-				withDockerRegistry([ credentialsId: "49cb0b01-e5b6-4d94-9fb1-987521ee9465", url: "" ]) {
+				withDockerRegistry([ credentialsId: "382f4956-57d3-425e-a2e0-b287402182db", url: "" ]) {
 					bat "docker push docker.io/meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 				}
 				
