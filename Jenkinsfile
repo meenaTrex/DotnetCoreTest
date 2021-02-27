@@ -105,7 +105,7 @@ pipeline
 			steps
 			{
 				withEnv(["KUBECONFIG=${kubeConfigPath}", "helm=${helmConfigPath}"]){
-					bat "helm install test-deployment test-chart-1 --set nodePort=30157 --set replicas=2 --set image.repository=meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+					bat "helm install test-deployment test-chart-1 --set nodePort=30157 --set replicaCount=2 --set image.repository=meenakshi23/dotnetcoretest:${BUILD_NUMBER} --set image.repository=Always"
 				}
 			}
 		}
