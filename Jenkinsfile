@@ -97,7 +97,7 @@ pipeline
 		{
 			steps
 			{
-				bat "docker run --name test${BUILD_NUMBER} -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
+				bat "docker run --name c_meenakshithukral_master -d -p 2342:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 			}
 		}
 		stage('helm charts deployment')
