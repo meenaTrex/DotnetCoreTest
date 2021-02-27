@@ -105,7 +105,7 @@ pipeline
 			steps
 			{
 				withEnv(["KUBECONFIG=${kubeConfigPath}", "helm=${helmConfigPath}"]){
-					bat "helm install nagp-deployment nagp-chart --set nodePort=30157 --set replicas=3 --set image.repository=dtr.nagarro.com:443/i_meenakshithukral_master:${BUILD_NUMBER}"
+					bat "helm install test-deployment test-chart-1 --set nodePort=30157 --set replicas=2 --set image.repository=meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 				}
 			}
 		}
