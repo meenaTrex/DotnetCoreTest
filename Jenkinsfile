@@ -4,6 +4,8 @@ pipeline
 	environment
 	{
 		scannerHome = tool name: 'sonar_scanner', type: 'hudson.plugins.sonar.MsBuildSQRunnerInstallation' 
+		kubeConfigPath = "C:/Users/meenakshithukral/.kube/config"
+		helmConfigPath = "D:/setups/helm-v3.3.1-windows-amd64/windows-amd64"
 	}
 	options
 	{
@@ -98,6 +100,14 @@ pipeline
 				bat "docker run --name test${BUILD_NUMBER} -d -p 2341:8080 meenakshi23/dotnetcoretest:${BUILD_NUMBER}"
 			}
 		}
-		
+		stage('helm charts deployment')
+		{
+			steps
+			{
+				withEnv(["KUBECONFIG=${kubeConfigPath}", "helm=${helmConfigPath}"]){
+					bat "helm install nagp-deployment nagp-chart --set nodePort=30157 --set replicas=3 --set image.repository=dtr.nagarro.com:443/i_meenakshithukral_master:${BUILD_NUMBER}"
+				}
+			}
+		}
 	}
 }
